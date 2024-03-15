@@ -1,0 +1,44 @@
+.photos {
+	width: 100%;
+	max-width: 470px;
+
+	@media (max-width: 1024px) {
+		max-width: 100%;
+	}
+
+	.current {
+		width: 100%;
+		height: calc(100% - 159px);
+		object-fit: cover;
+		white-space: nowrap;
+	}
+
+	.anotherPhoto {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 5px;
+
+		img {
+			width: 100%;
+			max-width: 154px;
+			height: 154px;
+			object-fit: cover;
+			cursor: pointer;
+			transition: opacity 0.4s;
+
+			@media (max-width: 1024px) {
+				max-width: 100%;
+				height: auto;
+			}
+
+			&.active {
+				cursor: not-allowed;
+				opacity: 0.6;
+			}
+
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+	}
+}
