@@ -16,16 +16,16 @@
 
 1. Assets
 2. Components
-	∟ App - general component
-	∟ Header, Footer
-	∟ MiniHeader, Header
-	∟ Path 
-	∟ Product
-	∟ Reviews
-	∟ Recommends
-	∟ Contacts
-3. Styles
-4. Utils
+ ∟ App - general component
+ ∟ Header, Footer
+ ∟ MiniHeader, Header
+ ∟ Path 
+ ∟ Product
+ ∟ Reviews
+ ∟ Recommends
+ ∟ Contacts
+4. Styles
+5. Utils
 
 ##### Tech Stack:
 
