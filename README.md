@@ -16,14 +16,14 @@
 
 1. Assets
 2. Components
- ∟ App - general component
- ∟ Header, Footer
- ∟ MiniHeader, Header
- ∟ Path 
- ∟ Product
- ∟ Reviews
- ∟ Recommends
- ∟ Contacts
+∟ App - general component
+∟ Header, Footer
+∟ MiniHeader, Header
+∟ Path 
+∟ Product
+∟ Reviews
+∟ Recommends
+∟ Contacts
 4. Styles
 5. Utils
 
