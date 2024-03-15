@@ -1,11 +1,9 @@
 import styles from './Recommend.module.scss';
 
-import current from 'assets/product/current.png';
-
-export const Recommend = () => {
+export const Recommend = ({ photo }) => {
 	return (
 		<div className={styles.recommend}>
-			<img src={current} alt='gym' />
+			<img src={photo} alt='gym' />
 			<div className={styles.description}>
 				<h1>Термобілизна для бодібілдерів</h1>
 
