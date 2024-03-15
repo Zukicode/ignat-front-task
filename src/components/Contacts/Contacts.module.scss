@@ -1,14 +1,15 @@
 .contacts {
 	width: 100%;
-	padding: 40px 20px;
+	padding: 40px 0px;
 	border-top: 1px solid var(--second-gray);
 
 	> div {
-		display: grid;
+		display: flex;
+		justify-content: space-between;
 		gap: 25px;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
 
 		@media (max-width: 900px) {
+			display: grid;
 			grid-template-columns: 1fr 1fr;
 			gap: 50px;
 		}
@@ -18,17 +19,11 @@
 		}
 
 		.contact {
+			width: 100%;
 			display: flex;
 			flex-direction: column;
 			gap: 25px;
 			margin: 0 auto;
-
-			@media (max-width: 768px) {
-				width: 100%;
-				justify-content: center;
-				align-items: center;
-				text-align: center;
-			}
 
 			h3 {
 				color: var(--dark);
